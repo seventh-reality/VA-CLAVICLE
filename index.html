@@ -10,18 +10,32 @@
     <script src="https://cdn.jsdelivr.net/npm/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
   </head>
   <body>
+    <div id="card">
     <!-- <model-viewer> HTML element -->
     <model-viewer src="VAclavicle.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" exposure="1.59" environment-image="aircraft_workshop_01_1k.hdr">
       <div class="progress-bar hide" slot="progress-bar">
           <div class="update-bar"></div>
       </div>
-      <button slot="ar-button" id="ar-button">
-          View in your space
+      
       </button>
       <div id="ar-prompt">
           <img src="ar_hand_prompt.png">
       </div>
-    </model-viewer>  
+    </model-viewer>
+    <section class="attributiontwo">
+      
+      <p style="background-image: url('black.png')" style="width:60px;height:80px; padding-left: 0px;padding-top: 10px;">
+      <span>
+        <a href="https://drive.google.com/file/d/1Q8dsmzaNS4_QDRrNprZIpbYKwZvigoip/view?usp=drivesdk"><img src="Brochure.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 17px;padding-top: 0px;"></a>
+        <a href="https://m.youtube.com/watch?v=_iatjpNg-FM&pp=ygUYVGZuYSB2aWRlbyBkZXB1eSBzeW50aGVz"><img src="Video.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
+       <a href="https://www.jnjmedtech.com/en-US/product/tfn-advanced-proximal-femoral-nailing-system-tfna"><img src="web.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
+        <a href="http://synthes.vo.llnwd.net/o16/LLNWMB8/US%20Mobile/Synthes%20North%20America/Product%20Support%20Materials/Technique%20Guides/Surgical%20Technique%20Guide%20-%20TFN-ADVANCED%20Proximal%20Femoral%20Nailing%20System%20(TFNA).pdf"><img src="serch.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSew4D56CSKpONvc30Ay7cLUY6FnPCOs7zK9IPYRLQWQPswbsg/viewform?usp=sf_link"><img src="form.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
+            
+      </span>
+   
+    </section>
+    </div>   
     <script src="script.js"></script>
     <!-- Loads <model-viewer> for browsers: -->
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
