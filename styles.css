@@ -2,6 +2,7 @@
   display: none;
 }
 
+
 body {
   margin: 1em;
   padding: 0;
@@ -35,6 +36,9 @@ model-viewer {
   flex-wrap: wrap;
   align-items: flex-end;
   
+}
+.attributiontwo {
+height: 60px;
 }
 
 .attribution {
@@ -118,7 +122,7 @@ model-viewer {
 }
 
 #ar-button:active {
-  background-color: #adf5e6;
+  background-color: #E8EAED;
 }
 
 #ar-button:focus {
@@ -128,6 +132,7 @@ model-viewer {
 #ar-button:focus-visible {
   outline: 1px solid #4285f4;
 }
+
 @keyframes circle {
   from { transform: translateX(-50%) rotate(0deg) translateX(50px) rotate(0deg); }
   to   { transform: translateX(-50%) rotate(360deg) translateX(50px) rotate(-360deg); }
@@ -153,4 +158,3 @@ model-viewer[ar-status="session-started"] > #ar-prompt {
 model-viewer > #ar-prompt > img {
   animation: circle 4s linear infinite;
 }
-
